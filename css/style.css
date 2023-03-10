@@ -14,9 +14,7 @@ body{
 }
 .letrero{
     border-radius: 3rem;
-    background-color: rgb(60, 59, 60);
     color: rgb(21, 129, 183);
-    font-size: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,56 +28,159 @@ body{
     font-family: pac;
     
 }
-.fondo {
-    display: flex;
-    background-image: url(../assets/tablerouno.png);
-    background-size: 100%;
-    height: 70vh;
-    background-repeat: no-repeat;
-}
-
-.pacmanmotion {
-    left: 16%;
-    position: relative;
-    animation: pacman 5s infinite;
-}
-
-@keyframes pacman {
-    0% {top: 3%; left: 16%; rotate: 0deg;}
-    10% {top: 3%; left: 45%; rotate: 90deg;}
-    20% {rotate: 90deg;}
-    30% {top: 15%; left: 45%;}
-    35% {rotate: 10deg;}
-    45% {top: 15%; left: 69%;}
-    50% {rotate: 90deg;}
-    55% {top: 80%; left: 69%;}
-    60% {rotate: 10deg;}
-    70% {top: 80%; left: 69%;}
-    80% {top: 80%; left: 77%;}
-    83% {rotate: -40deg;}
-    85% {top: 70%; left: 77%;}
-    90% {top: 70%; left: 82%;}
-    95% {top: 67%; left: 82%; width: 3%; height: 5%;}
-    100% {top: 67%; left: 82%; width: 5%; height: 8%;}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .container{
+        background-color: rgb(26, 9, 31);
+    }
+    .fondo {
+        display: flex;
+        background-image: url(../assets/tablerouno.png);
+        background-size: 100%;
+        height: 60vh;
+        background-repeat: no-repeat;
+    }
+    
+    .bichoUno {
+        top: 65%;
+        left: 15%;
+        position: relative;
+        animation: bichoUno 3s infinite;
+    }
+    @keyframes bichoUno {
+        0% {top: 65%; left: 15%;}
+        10% {top: 65%; left: 53%;}
+        20% {top: 59%; left: 53%;}
+        30% {top: 59%; left: 61%;}
+        40% {top: 52%; left: 61%;}
+        50% {top: 52%; left: 53%;}
+        55% {top: 45%; left: 53%;}
+        60% {top: 45%; left: 61%;}
+        70% {top: 25%; left: 61%;}
+        80% {top: 25%; left: 48.5%;}
+        100% {top: 30%; left: 48.5%;}
+    }    
     
 }
-.bichoUno {
-    top: 90%;
-    left: 12.5%;
-    position: relative;
-    animation: bichoUno 5s infinite;
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container{
+        background-color: rgb(29, 10, 65);
+    }
+    .fondo {
+        display: flex;
+        background-image: url(../assets/tablerouno.png);
+        background-size: 100%;
+        height: 75vh;
+        background-repeat: no-repeat;
+    }
+    
+    .bichoUno {
+        top: 70%;
+        left: 16%;
+        position: relative;
+        animation: bichoUno 3s infinite;
+    }
+    @keyframes bichoUno {
+        0% {top: 70%; left: 16%;}
+        10% {top: 70%; left: 52.5%;}
+        20% {top: 63%; left: 52.5%;}
+        30% {top: 63%; left: 60%;}
+        40% {top: 55%; left: 60%;}
+        50% {top: 55%; left: 53%;}
+        55% {top: 48%; left: 53%;}
+        60% {top: 48%; left: 60%;}
+        70% {top: 26%; left: 60%;}
+        80% {top: 26%; left: 48.5%;}
+        85% {top: 26%; left: 48.5%;}
+        90%  {top: 30%; left: 48.5%;}
+        100% {top: 34%; left: 48.5%;}
+    }  
+    
 }
-@keyframes bichoUno {
-    0% {top: 90%; left: 12.5%;}
-    10% {left: 42%}
-    20% {left: 42%; top: 90%;}
-    30% {left: 42%; top: 80%;}
-    40% {left: 35%; top: 80%;}
-    50% {left: 35%; top: 70%;}
-    60% {left: 25%; top: 70%;}
-    70% {left: 25%; top: 1%;}
-    80% {left: 13%; top: 1%;}
-    90% {left: 13%; top: 6%;}
-    95% {left: 13%; top: 8%;}
-    100% {left: 13%; top: 8%;}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container{
+        background-color: rgb(57, 7, 48);
+    }
+    .fondo {
+        display: flex;
+        background-image: url(../assets/tablerouno.png);
+        background-size: 100%;
+        height: 75vh;
+        background-repeat: no-repeat;
+    }
+    
+    .bichoUno {
+        top: 70%;
+        left: 15%;
+        position: relative;
+        animation: bichoUno 3s infinite;
+    }
+    @keyframes bichoUno {
+        0% {top: 70%; left: 15%;}
+        10% {top: 70%; left: 53%;}
+        20% {top: 63%; left: 53%;}
+        30% {top: 63%; left: 61%;}
+        40% {top: 56%; left: 61%;}
+        50% {top: 56%; left: 53%;}
+        55% {top: 48%; left: 53%;}
+        60% {top: 48%; left: 60%;}
+        70% {top: 26%; left: 60%;}
+        80% {top: 26%; left: 48.5%;}
+        100% {top: 34%; left: 48.5%;}
+    }  
+    
+}
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .container{
+        background-color: rgb(21, 2, 7);
+    }
+    .fondo {
+        display: flex;
+        background-image: url(../assets/tablerouno.png);
+        background-size: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+    }
+    
+    .bichoUno {
+        top: 78%;
+        left: 16%;
+        position: relative;
+        animation: bichoUno 3s infinite;
+    }
+    @keyframes bichoUno {
+        0% {top: 78%; left: 16%;}
+        10% {top: 78%; left: 53%;}
+        20% {top: 70%; left: 53%;}
+        30% {top: 70%; left: 53%;}
+        40% {top: 70%; left: 60%;}
+        50% {top: 62%; left: 60%;}
+        55% {top: 62%; left: 53%;}
+        60% {top: 55%; left: 53%;}
+        70% {top: 55%; left: 60%;}
+        80% {top: 29%; left: 60%;}
+        85% {top: 29%; left: 48.5%;}
+        90% {top: 33%; left: 48.5%;}
+        100% {top: 40%; left: 48.5%;}
+    }  
+    .bichoDos {
+        top:13%;
+        left: 13%;
+        position: relative;
+        animation: bichoDos 4s infinite;
+    }
+    @keyframes bichoDos {
+       0% {top: 13%; left: 13%;}
+       30% {top: 20%; left: 13%;}
+       40% {top: 20%; left: 26%;}
+       50% {top: 38%; left: 26%;}
+       56% {top: 38%; left: 34%;}
+       67% {top: 29%; left: 34%;}
+       70% {top: 29%; left: 34%;}
+       85% {top: 29%; left: 46%;}
+       90% {top: 29%; left: 46%;}
+       95% {top: 38%; left: 46%;}
+       100% {top: 38%; left: 52%;}
+       
+    } 
+    
 }
