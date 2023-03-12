@@ -23,6 +23,12 @@ body{
     height: 0.5rem;
     margin: 1rem;
 }
+.bichoTres{
+    top: 50%;
+    left: 50%git add;
+    width: 3%;
+    height: 4%;
+}
 .lista, .letrero{
     font-family: pac;
     
@@ -245,6 +251,7 @@ body{
        100% {top: 38%; left: 52%;}
        
     } 
+
 
     
 }
