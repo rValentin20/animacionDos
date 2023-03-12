@@ -87,45 +87,70 @@ body{
         background-color: rgb(29, 10, 65);
     }
     .bichoUno {
-        top: 70%;
+        top: 66%;
         left: 16%;
         position: relative;
-        animation: bichoUno 3s infinite;
+        animation: bichoUno 4s infinite;
+        height: 4%;
+        width: 3%;
     }
     @keyframes bichoUno {
-        0% {top: 70%; left: 16%;}
-        10% {top: 70%; left: 52.5%;}
-        20% {top: 63%; left: 52.5%;}
-        30% {top: 63%; left: 60%;}
-        40% {top: 55%; left: 60%;}
-        50% {top: 55%; left: 53%;}
-        55% {top: 48%; left: 53%;}
-        60% {top: 48%; left: 60%;}
-        70% {top: 26%; left: 60%;}
-        80% {top: 26%; left: 48.5%;}
-        85% {top: 26%; left: 48.5%;}
+        0% {top: 66%; left: 16%;}
+        10% {top: 66%; left: 52.5%;}
+        20% {top: 60%; left: 52.5%;}
+        30% {top: 60%; left: 60%;}
+        40% {top: 52%; left: 60%;}
+        50% {top: 52%; left: 53%;}
+        55% {top: 45%; left: 53%;}
+        60% {top: 45%; left: 60%;}
+        70% {top: 24%; left: 60%;}
+        80% {top: 24%; left: 48.5%;}
+        85% {top: 24%; left: 48.5%;}
         90%  {top: 30%; left: 48.5%;}
-        100% {top: 34%; left: 48.5%;}
+        100% {top: 32%; left: 48.5%;}
     }  
     .bichoDos {
-        top:13%;
+        top:10%;
         left: 13%;
         position: relative;
         animation: bichoDos 4s infinite;
+        height: 4%;
+        width: 3%;
     }
     @keyframes bichoDos {
-       0% {top: 13%; left: 13%;}
-       30% {top: 20%; left: 13%;}
-       40% {top: 20%; left: 26%;}
-       50% {top: 38%; left: 26%;}
-       56% {top: 38%; left: 34%;}
-       67% {top: 29%; left: 34%;}
-       70% {top: 29%; left: 34%;}
-       85% {top: 29%; left: 46%;}
-       90% {top: 29%; left: 46%;}
-       95% {top: 38%; left: 46%;}
-       100% {top: 38%; left: 52%;}
+       0% {top: 10%; left: 13%;}
+       30% {top: 17%; left: 13%;}
+       40% {top: 17%; left: 26%;}
+       50% {top: 32%; left: 26%;}
+       56% {top: 32%; left: 34%;}
+       67% {top: 25%; left: 34%;}
+       70% {top: 25%; left: 34%;}
+       85% {top: 25%; left: 46%;}
+       90% {top: 25%; left: 46%;}
+       95% {top: 32%; left: 46%;}
+       100% {top: 32%; left: 52%;}
        
+    } 
+    .bichoTres {
+        top: 59%;
+        left: 63%;
+        position: relative;
+        animation: bichoTres 4s infinite;
+        height: 4%;
+        width: 3%;
+    }
+    @keyframes bichoTres {
+       0% {top: 59%; left: 63%;}
+       10% {top: 1%; left: 63%;}
+       20% {top: 1%; left: 76%;}
+       30% {top: 10%; left: 76%;}
+       40% {top: 10%; left: 54%;}
+       50% {top: 18%; left: 54%;}
+       60% {top: 18%; left: 47%;}
+       70% {top: 24%; left: 47%;}
+       80% {top: 24%; left: 43%;}
+       90% {top: 32%; left: 43%;}
+       100% {top: 32%; left: 38%;}
     } 
     
 }
@@ -134,23 +159,23 @@ body{
         background-color: rgb(57, 7, 48);
     }   
     .bichoUno {
-        top: 70%;
+        top: 65%;
         left: 15%;
         position: relative;
-        animation: bichoUno 3s infinite;
+        animation: bichoUno 4s infinite;
     }
     @keyframes bichoUno {
-        0% {top: 70%; left: 15%;}
-        10% {top: 70%; left: 53%;}
-        20% {top: 63%; left: 53%;}
-        30% {top: 63%; left: 61%;}
-        40% {top: 56%; left: 61%;}
-        50% {top: 56%; left: 53%;}
-        55% {top: 48%; left: 53%;}
-        60% {top: 48%; left: 60%;}
+        0% {top: 65%; left: 15%;}
+        10% {top: 65%; left: 53%;}
+        20% {top: 60%; left: 53%;}
+        30% {top: 60%; left: 61%;}
+        40% {top: 53%; left: 61%;}
+        50% {top: 53%; left: 53%;}
+        55% {top: 45%; left: 53%;}
+        60% {top: 45%; left: 60%;}
         70% {top: 26%; left: 60%;}
         80% {top: 26%; left: 48.5%;}
-        100% {top: 34%; left: 48.5%;}
+        100% {top: 32%; left: 48.5%;}
     } 
     .bichoDos {
         top:13%;
@@ -162,14 +187,14 @@ body{
        0% {top: 13%; left: 13%;}
        30% {top: 18%; left: 13%;}
        40% {top: 18%; left: 26%;}
-       50% {top: 34%; left: 26%;}
-       56% {top: 34%; left: 34%;}
+       50% {top: 32%; left: 26%;}
+       56% {top: 32%; left: 34%;}
        67% {top: 26%; left: 34%;}
        70% {top: 26%; left: 34%;}
        85% {top: 26%; left: 46%;}
        90% {top: 26%; left: 46%;}
-       95% {top: 35%; left: 46%;}
-       100% {top: 35%; left: 52%;}
+       95% {top: 32%; left: 46%;}
+       100% {top: 32%; left: 52%;}
        
     }  
     
@@ -220,5 +245,6 @@ body{
        100% {top: 38%; left: 52%;}
        
     } 
+
     
 }
